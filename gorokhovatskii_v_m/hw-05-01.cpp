@@ -29,6 +29,5 @@ int main(){
 		}
 		std::cout << x << " " << "|" << " " << s << " " << "|" << " " << cos(x) << std::endl;
 	}
-	std::cout << x << " " << "|" << " " << s << " " << "|" << " " << cos(x) << std::endl;
 	return 0;
 }
