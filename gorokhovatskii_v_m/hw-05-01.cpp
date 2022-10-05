@@ -19,7 +19,7 @@ int main(){
 	for (double x = a; x <= b; x += delta){
 		i = 1;
 		s = 0;
-		for (int j = 1; j < 100; i += 1){
+		for (int j = 1; j < 100; j += 1){
 			if (std::abs(i) >= eps){
 				s += i;
 				i = pow(-1, j) * pow(x, 2 * j) / factorial(2 * j);
@@ -29,6 +29,5 @@ int main(){
 		}
 		std::cout << x << " " << "|" << " " << s << " " << "|" << " " << cos(x) << std::endl;
 	}
-	std::cout << x << " " << "|" << " " << s << " " << "|" << " " << cos(x) << std::endl;
 	return 0;
 }
