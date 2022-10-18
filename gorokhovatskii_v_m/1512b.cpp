@@ -9,10 +9,8 @@ int main(){
 	int ypos = 0;
 	int xpos2 = 0;
 	int ypos2 = 0;
-	int nxpos = 0;
-	int nypos = 0;
-	int nxpos2 = 0;
-	int nypos2 = 0;
+	int newxpos = 0;
+	int newypos = 0;
 	for (int k = 0; k < t; k+= 1){
 		int n;
 		std::cin >> n;
@@ -33,12 +31,34 @@ int main(){
 				}
 			}
 		}
-		if (xpos = xpos2){
-			if (xpos == 0 && xpos2 == 0){
-				nxpos = nxpos + 1;
-				nxpos2 = nxpos2 + 1;
-				 
+		if (xpos - xpos2 == 0){
+			if (xpos == 0){
+				newxpos = (xpos + 1);
+				newypos = ypos;
+			} else{
+				newxpos = (xpos - 1);
+				newypos = ypos;
 			}
+		}
+		if (ypos - ypos2 == 0){
+			if (ypos == 0){
+				newypos = (ypos + 1);
+				newxpos = xpos;
+			} else{
+				newypos = (ypos - 1);
+				newxpos = xpos;
+			}
+		}
+		for (int i = 0; i < n; i += 1){
+			for (int i2 = 0; i2 < n; i2 += 1){
+				if ((i == xpos || i == newxpos) && (i2 == ypos || i2 == newypos)){
+					std::cout << '*';
+				}
+				else{
+					std::cout << '.';
+				}
+			}
+			std::cout << std::endl;
 		}
 	}
 	return 0;
