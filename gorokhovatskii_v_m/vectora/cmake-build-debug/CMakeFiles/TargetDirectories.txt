@@ -1,0 +1,3 @@
+/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/vectora.dir
+/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/rebuild_cache.dir
