@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vectora",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "vector.task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector.task-Debug-4fd4605d8b71fc9003a1.json",
+					"name" : "vector.task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector.test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector.test-Debug-497cc7598b6c6b68df22.json",
+					"name" : "vector.test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_lib-Debug-7ad510a908ea1f36c8e1.json",
+					"name" : "vector_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug",
+		"source" : "C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
