@@ -103,6 +103,38 @@ build vector.test: CXX_EXECUTABLE_LINKER__vector.2etest_Debug CMakeFiles/vector.
   TARGET_FILE = vector.test
   TARGET_PDB = vector.test.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target vector.task
+
+
+#############################################
+# Order-only phony target for vector.task
+
+build cmake_object_order_depends_target_vector.task: phony || cmake_object_order_depends_target_vector_lib
+
+build CMakeFiles/vector.task.dir/mouse_and_cat.cpp.o: CXX_COMPILER__vector.2etask_Debug /home/vsevolod/CLionProjects/vectora/mouse_and_cat.cpp || cmake_object_order_depends_target_vector.task
+  DEP_FILE = CMakeFiles/vector.task.dir/mouse_and_cat.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/vector.task.dir
+  OBJECT_FILE_DIR = CMakeFiles/vector.task.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector.task
+
+
+#############################################
+# Link the executable vector.task
+
+build vector.task: CXX_EXECUTABLE_LINKER__vector.2etask_Debug CMakeFiles/vector.task.dir/mouse_and_cat.cpp.o | libvector_lib.a || libvector_lib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libvector_lib.a
+  OBJECT_DIR = CMakeFiles/vector.task.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vector.task
+  TARGET_PDB = vector.task.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -140,7 +172,7 @@ build vector_lib: phony libvector_lib.a
 #############################################
 # Folder: /home/vsevolod/CLionProjects/vectora/cmake-build-debug
 
-build all: phony libvector_lib.a vector.test
+build all: phony libvector_lib.a vector.test vector.task
 
 # =============================================================================
 # Built-in targets
