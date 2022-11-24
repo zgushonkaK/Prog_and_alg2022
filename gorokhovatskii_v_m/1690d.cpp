@@ -1,31 +1,30 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
 
-int main(){
-    int t;
-    std::cin >> t;
-    for (int i = 0; i < t; i += 1){
-        int n;
-        int k;
-        int counta(0);
-        int mincount(1000000000);
-        std::string s;
-        std::cin >> n >> k;
-        std::cin >> s;
-        for (int j = 0; j < n; j += k){
-        	if (j+k > k){
-            	break;
-            }
-            for(int l = 0; l < k; l += 1){
-                if (s[j+l] == 'W'){
-                    counta += 1;
-                }
-            }
-            if (counta < mincount){
-                mincount = counta;
-            }
-            counta = 0;
-        }
-        std::cout << mincount << std::endl;
-    }
+int main() {
+	int t;
+    int n;
+    int k;
+    int cnt; 
+    int m;
+	std::cin >> t;
+	for (int j = 0; j < t; j++) {
+		std::cin >> n >> k;
+		std::vector<char> a(n);
+		std::vector<int> b(n + 1);
+		cnt = 0;
+		for (int i = 0; i < n; i++) {
+			std::cin >> a[i];
+			if (a[i] == 'B') cnt++;
+			b[i + 1] = cnt;
+		}
+		m = 0;
+		for (int i = 1; i <= n - k + 1; i++) {
+			m = std::max(m, b[i + k - 1] - b[i - 1]);
+		}
+		std::cout << k - m << std::endl;
+	}
+	return 0;
 }
