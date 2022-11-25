@@ -1,5 +1,0 @@
-/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/vector_lib.dir
-/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/vector.test.dir
-/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/vector.task.dir
-/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vsevolod/CLionProjects/vectora/cmake-build-debug/CMakeFiles/rebuild_cache.dir

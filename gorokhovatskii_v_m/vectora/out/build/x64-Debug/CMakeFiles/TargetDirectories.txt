@@ -1,5 +1,0 @@
-C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug/CMakeFiles/vector_lib.dir
-C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug/CMakeFiles/vector.test.dir
-C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug/CMakeFiles/vector.task.dir
-C:/Users/Всеволод/Desktop/projects/Repository for polevoy/Prog_and_alg2022/gorokhovatskii_v_m/vectora/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
