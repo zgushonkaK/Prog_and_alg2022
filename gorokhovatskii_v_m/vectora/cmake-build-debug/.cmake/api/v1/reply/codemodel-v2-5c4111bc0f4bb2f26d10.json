@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vectora",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "vector.task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector.task-Debug-1515fc7a219d552b0607.json",
+					"name" : "vector.task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector.test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector.test-Debug-a1289624d46341cd9a45.json",
+					"name" : "vector.test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_lib-Debug-5c6ad7390e8929ea0b5d.json",
+					"name" : "vector_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vsevolod/CLionProjects/vectora/cmake-build-debug",
+		"source" : "/home/vsevolod/CLionProjects/vectora"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
