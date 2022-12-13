@@ -15,11 +15,6 @@ int TimeToCatch(const Rdec2D cat_pos, const Rdec2D mouse_pos,
 
 	int time = 0;
 
-	//if (Norm(mouse_pos - cat_pos) < Norm(mouse_pos + mouse_speed -
-	//	(cat_pos + cat_speed))) {
-	//	return -1; //cant catch
-	//}
-
 	while (Norm(cat_pos - mouse_pos) > cat_range) {
 		cat_dir = cat_dir + cat_speed;
 		mouse_dir = mouse_dir + mouse_speed;
